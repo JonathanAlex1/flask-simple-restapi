@@ -1,6 +1,8 @@
 from flask import Flask, jsonify, request
 import requests
 
+mapsApiKey = 'AIzaSyC5Lz0BuGKtNqVmXhkqDw-xiuPGGRl3O7Q'
+
 app = Flask(__name__)
 
 # find Place
@@ -11,7 +13,7 @@ def call_api_maps():
         'fields': 'formatted_address,name,rating,opening_hours,geometry',
         'input': request.json['text'],
         'inputtype': 'textquery',
-        'key': 'AIzaSyC5Lz0BuGKtNqVmXhkqDw-xiuPGGRl3O7Q'
+        'key': mapsApiKey
     }
     api_url = "https://maps.googleapis.com/maps/api/place/findplacefromtext/json"
     try:
