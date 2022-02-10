@@ -2,11 +2,15 @@
 
 ## Table of Content
 
+- [Requirements](#requirements)
 - [Getting Started](#getting-started)
 - [Useful Commands](#useful-commands)
 - [Features](#features)
-- [Requirements](#requirements)
 
+## Requirements
+
+- Python
+- Flask library
 
 ## Getting started
 
@@ -23,8 +27,3 @@ python app.py
 ## Features
 
 - use of API google maps
-
-## Requirements
-
-- Python
-- Flask library
