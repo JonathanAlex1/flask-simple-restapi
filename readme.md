@@ -35,11 +35,11 @@ python app.py
   Will return the following result:
 ```json
     {
-  "candidates": [
-    {
-      "formatted_address": "Av. Capitán Alonso de León, Zaragoza, 67563 Montemorelos, N.L., México",
-      "geometry": {
-        "location": {
+    "candidates": [
+      {
+        "formatted_address": "Av. Capitán Alonso de León, Zaragoza, 67563 Montemorelos, N.L., México",
+        "geometry": {
+          "location": {
           "lat": 25.1893329,
           "lng": -99.84431470000001
         },
@@ -64,7 +64,8 @@ python app.py
   "status": "OK"
 }
 ```
- test by curl text: 
+  test by curl text:
+  
 ```bash
 curl --location --request POST 'localhost:4000/find-place' \
 --header 'Content-Type: application/json' \
