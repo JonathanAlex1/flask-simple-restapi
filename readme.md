@@ -34,8 +34,8 @@ python app.py
   `https://api.crossref.org/works/10.1037/0003-066X.59.1.29/agency`
   Will return the following result:
 ```json
-    {
-    "candidates": [
+{
+  "candidates": [
       {
         "formatted_address": "Av. Capitán Alonso de León, Zaragoza, 67563 Montemorelos, N.L., México",
         "geometry": {
