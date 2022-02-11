@@ -6,7 +6,7 @@
 - [Getting Started](#getting-started)
 - [Useful Commands](#useful-commands)
 - [Features](#features)
-- [Examples](#examples)
+- [Example](#example)
 
 ## Requirements
 
@@ -29,7 +29,7 @@ python app.py
 
 - use of API google maps
 
-## Examples
+## Example
 - Test the api Using the URL:
   `https://api.crossref.org/works/10.1037/0003-066X.59.1.29/agency`
   Will return the following result:
