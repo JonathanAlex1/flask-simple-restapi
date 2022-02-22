@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 import requests
 
-mapsApiKey = 'Enter your apy key here'
+mapsApiKey = 'AIzaSyBFZGhIalOib1q_HUF6zx58EODfQVb2Iuo'
 
 app = Flask(__name__)
 
