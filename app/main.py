@@ -5,8 +5,13 @@ mapsApiKey = 'AIzaSyBFZGhIalOib1q_HUF6zx58EODfQVb2Iuo'
 
 app = Flask(__name__)
 
-# find Place
 
+@app.route("/")
+def home_view():
+    return "<h1>Hola MICHAEL BROCHA</h1>"
+
+
+# find Place
 @app.route('/find-place', methods=['POST'])
 def call_api_maps():
     query = {
