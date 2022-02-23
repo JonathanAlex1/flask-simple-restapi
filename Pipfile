@@ -10,6 +10,7 @@ autopep8 = "*"
 flask = "*"
 pylint = "*"
 gunicorn = "*"
+requests = "*"
 
 [requires]
 python_version = "3.6"
