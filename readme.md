@@ -31,7 +31,7 @@ python app.py
 
 ## Example
 - Test the api Using the URL, with this body:'{"text": "Crazy Burger"}'
-  local: `localhost:4000/find-place`, 
+   in local: `localhost:4000/find-place`, or 
   prod: `https://eflask-app-rest.herokuapp.com/find-place`
   Will return the following result:
 ```json
