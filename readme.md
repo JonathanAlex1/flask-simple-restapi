@@ -30,8 +30,9 @@ python app.py
 - use of API google maps
 
 ## Example
-- Test the api Using the URL:
-  `localhost:4000/find-place`
+- Test the api Using the URL, with this body:'{"text": "Crazy Burger"}'
+  local: `localhost:4000/find-place`, 
+  prod: `https://eflask-app-rest.herokuapp.com/find-place`
   Will return the following result:
 ```json
 {
